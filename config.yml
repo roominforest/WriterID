@@ -1,0 +1,17 @@
+data_dir : '/data/data_nTGG0ILaS1qu/WriterID/'
+NumOfCategory: 10
+data_10 : 'Data10/'
+data_107: 'Data/'
+BATCH_SIZE: 500
+EPOCH: 100
+NumofSamples: 100  # num of point for per sample    it may be confused and it's all my fault >_<
+LenofSample : 300   #
+onehot_10_file : 'data_10.npy'
+onehot_107_file : 'data_107.npy'
+model_file: '107.pkl'
+test_dir: None
+sample_type: 'stroke'
+model_type : 'bi'
+CNN: False
+img_size: [600,600]
+data_aug: False
